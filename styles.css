@@ -273,6 +273,10 @@ textarea {
     padding: 20px;
 }
 
+.formSubmitButton:hover {
+    cursor: pointer;
+}
+
 /* footer styles */
 
 footer {
@@ -281,6 +285,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-transform: uppercase;
 }
 
 .footer {
@@ -291,6 +296,11 @@ footer {
 .footer p {
     font-size: 1.5rem;
     margin: 5px;
+}
+
+.footer a:hover,
+.footer a:focus {
+    text-decoration: underline;
 }
 
 
