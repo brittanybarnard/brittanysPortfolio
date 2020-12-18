@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Developer | Brittany Barnard</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/ab2685bd62.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav>
+
+        <div class="navBar container">
+            <a href="#" class="logo"><span>Brittany</span> Barnard</a>
+            <div>
+                <ul class="navBarLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <header id="home">
+
+        <div class="home container">
+            <h1>Welcome to my Website</h1>
+            <h2>I'm <a href="#about" class="brittanyHover">Brittany</a> Barnard</h2>
+            <p>Front-End Developer</p>
+            <ul class="socialMedia">
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fab fa-github"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            </ul>
+            <ul class="headerButtonContainer">
+                <li><a href="#portfolio">View Work</a></li>
+                <li><a href="#contact">Hire Me</a></li>
+            </ul>
+            <a href="#about" class="chevronDown"><i class="fa fa-chevron-down"></i></a>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section id="about" class="container">
+
+            <div class="about">
+                <h3>About Me</h3>
+                <div class="aboutFlexContainer">
+                    <img src="https://placebear.com/g/600/460" alt="placeholder image for now">
+                    <div class="aboutInfo">
+                        <h4>Hi, I'm <span>Brittany</span>.</h4>
+                        <h5>Front-End Developer</h5>
+                        <p>I am a front-end developer, which means I spend all day having a blast with HTML5, CSS3, Javascript and React.  I create fun and informative websites, mostly to help people kill time during this pandemic.</p>
+                        <p>While attending Juno College of Technology, I have gained experience in pair-programming and team-based development; as well as completing multiple projects on my own.</p>
+                        </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="skills">
+
+            <div class="skills container">
+                <h3>Skills</h3>
+                <ul class="skillList">
+                    <li>
+                        <div class="skillIcons"><i class="fas fa-mobile-alt"></i></div>
+                        <h4>Responsive Design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates magni atque quasi ea.</p>
+                    </li>
+                    <li>
+                        <div class="skillIcons"><i class="fas fa-chart-line"></i></div>
+                        <h4>SEO Optimization</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis exercitationem quos assumenda expedita.</p>
+                    </li>
+                    <li>
+                        <div class="skillIcons"><i class="fas fa-code"></i></div>
+                        <h4>HTML5, CSS3, SCSS</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam veniam repudiandae ad reiciendis?</p>
+                    </li>
+                    <li>
+                        <div class="skillIcons"><i class="fab fa-react"></i></div>
+                        <h4>Javascript, jQuery, React</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quia ab nobis autem.</p>
+                    </li>
+                    <li>
+                        <div class="skillIcons"><i class="fab fa-searchengin"></i></i></div>
+                        <h4>Working with RESTful APIs and Firebase</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem cupiditate laboriosam doloremque commodi?</p>
+                    </li>
+                    <li>
+                        <div class="skillIcons"><i class="fas fa-universal-access"></i></div>
+                        <h4>Website Accessibility Requirements</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In aliquam id consequatur sunt.</p>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section id="portfolio" class="portfolio">
+
+            <div class="container">
+                <h3>Recent Portfolio</h3>
+                <ul class="portfolioItems">
+                    <li>
+                        <img src="" alt="">
+                        <a href="https://brittanybarnard.github.io/brittanyBarnardProject5/"><button>View</button></a>
+                        <h5>Start Your Holidays!</h5>
+                        <p>An fun, interactive app that will randomly select the perfect Christmas movie for you to watch over the holidays.  This app connects react to a RESTful API to get the movies.</p>
+
+                    </li>
+                    <li>
+                        <img src="" alt="">
+                        <a href="brittany-marielle-martin-jon-project-6.github.io/"><button>View</button></a>
+                        <h5>Book Club Reads</h5>
+                        <p>Interactive app that helps users make their own reading lists and track their reading progress.  User can search for a book by title or author, and the search results will display the results with the book cover, author, title and description.  Users can add or delete a book from their bookshelf and their list will be saved to Firebase database.</p>
+                    </li>
+                    <li>
+                        <img src="" alt="">
+                        <a href=""></a>
+                        <h5>Animal Refuge</h5>
+                        <p></p>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section id="contact" class="contact">
+
+            <div class="container">
+                <h3>Get in Touch</h3>
+                <form action="#">
+                    <div class="contactDetails">
+                        <label for="name"></label>
+                        <input type="text" id="name" name="name" placeholder="Name" required>
+
+                        <label for="subject"></label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                    </div>
+                
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                
+                    <label for="message"></label>
+                    <textarea name="message" id="message" cols="70" rows="10" placeholder="Message" required
+                        maxlength="200"></textarea>
+                
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer container">
+        <ul class="socialMedia">
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-github"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        </ul>
+        <p>brittanyabarnard@gmail.com</p>
+        <p>Juno College of Technology ©2020</p>
+    </footer>
+
+</body>
+</html>
