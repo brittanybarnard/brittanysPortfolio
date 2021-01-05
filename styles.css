@@ -74,11 +74,12 @@ span {
 
 .navBar {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 50px;
 }
 
 .logo {
-    margin-right: 450px;
+    margin-right: 400px;
     font-size: 2.5rem;
     font-weight: 700;
 }
@@ -179,6 +180,7 @@ h2 {
 
 .about {
     margin: 100px 0;
+    line-height: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -192,6 +194,8 @@ h2 {
 
 .aboutFlexContainer img {
     margin-right: 20px;
+    height: 460px;
+    width: auto;
 }
 
 .aboutInfo {
@@ -200,21 +204,21 @@ h2 {
 
 .aboutInfo h4 {
     letter-spacing: 2px;
-    margin-bottom: 20px;
-
 }
 
 .aboutInfo h5 {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 5px;
-    margin-bottom: 20px;
 }
 
 /* skills styles */
 
 .skills {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .skillList {
@@ -229,6 +233,11 @@ h2 {
     background-color: #151921;
 }
 
+.skillList p {
+    line-height: 3rem;
+    margin-top: 1rem;
+}
+
 .skillIcons {
     color: #ff4500;
     font-size: 5rem;
@@ -236,6 +245,12 @@ h2 {
 }
 
 /* portfolio styles */
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .portfolioItems {
     display: grid;
@@ -246,6 +261,10 @@ h2 {
 .portfolioItems li {
     background-color: #151921;
     padding: 3rem;
+}
+
+.portfolioItems p {
+    line-height: 3rem;
 }
 
 .portfolioItems h5 {
@@ -279,9 +298,15 @@ h2 {
     background-image: url(./assets/contact-bg.png);
 }
 
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 form {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .contactDetails {
@@ -331,4 +356,11 @@ footer {
     text-decoration: underline;
 }
 
+@media (max-width:1331px) {
+
+    .logo {
+        margin-right: 0;
+    }
+
+}
 
