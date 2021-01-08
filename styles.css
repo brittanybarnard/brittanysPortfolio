@@ -75,11 +75,11 @@ span {
 .navBar {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 50px;
 }
 
 .logo {
-    margin-right: 400px;
     font-size: 2.5rem;
     font-weight: 700;
 }
@@ -87,6 +87,7 @@ span {
 .navBarLinks {
     display: flex;
     font-size: 1.5rem;
+    text-transform: uppercase;
 }
 
 .navBarLinks li {
@@ -127,6 +128,10 @@ h2 {
 .brittanyHover:hover,
 .brittanyHover:focus {
     color: #ff4500;
+}
+
+.home {
+    text-align: center;
 }
 
 .home p {
@@ -356,10 +361,70 @@ footer {
     text-decoration: underline;
 }
 
-@media (max-width:1331px) {
+@media (max-width:964px) {
 
-    .logo {
-        margin-right: 0;
+    .navBarLinks li {
+        padding: 10px 0;
+    }
+    .about p {
+        line-height: 3rem;
+    }
+
+}
+
+@media (max-width:848px) {
+
+    .about h3 {
+        margin: 30px 0;
+    }
+    .aboutFlexContainer {
+        flex-direction: column;
+    }
+    .aboutFlexContainer img {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width:468px) {
+
+    h1 {
+        font-size: 1.5rem;
+    }
+    .home {
+        height: 60vh;
+    }
+    .home h2 {
+        font-size: 3rem;
+    }
+    .home p {
+        font-size: 1.5rem;
+    }
+    .navBar {
+        flex-direction: column;
+        text-align: center;
+    }
+    .navBarLinks {
+        flex-direction: column;
+    }
+    .headerButtonContainer {
+        flex-direction: column;
+    }
+    .headerButtonContainer li {
+        margin-bottom: 25px;
+    }
+    .chevronDown {
+        display: none;
+    }
+    .about h3 {
+        font-size: 3rem;
+        margin: 15px 0;
+    }
+    /* .aboutInfo {
+        margin-bottom: 100px;
+    } */
+    .skills {
+        margin-top: 150px;
     }
 
 }
