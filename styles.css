@@ -90,6 +90,11 @@ span {
     text-transform: uppercase;
 }
 
+.socialMedia li:hover,
+.socialMedia li:focus {
+    color: #ff4500;
+}
+
 .navBarLinks li {
     margin: 0 10px;
     padding: 10px;
@@ -302,6 +307,7 @@ h2 {
     background-image: url(./assets/contact-bg.png);
 }
 
+
 .contactInfo {
     display: flex;
     flex-direction: column;
@@ -315,6 +321,12 @@ form {
 
 .contactDetails {
     display: flex;
+}
+
+input,
+textarea {
+    border: 2px solid #151921;
+    border-bottom: 2px solid rgba(190, 187, 187, 0.329);
 }
 
 input {
@@ -332,6 +344,7 @@ textarea {
 
 .formSubmitButton:hover {
     cursor: pointer;
+    background-color: rgba(190, 187, 187, 0.329);
 }
 
 /* footer styles */
@@ -368,13 +381,16 @@ footer {
     .about p {
         line-height: 3rem;
     }
+    .portfolioItems {
+        grid-template-columns: 1fr;
+    }
 
 }
 
 @media (max-width:848px) {
 
-    .about h3 {
-        margin: 30px 0;
+    h3 {
+        margin: 50px 0;
     }
     .aboutFlexContainer {
         flex-direction: column;
@@ -385,7 +401,10 @@ footer {
     .skillList {
         grid-template-columns: 1fr 1fr;
     }
-
+    .contactDetails {
+        flex-direction: column;
+    }
+    
 }
 
 @media (max-width:468px) {
@@ -415,17 +434,23 @@ footer {
     .headerButtonContainer li {
         margin-bottom: 25px;
     }
-    .chevronDown {
-        display: none;
-    }
-    .about h3 {
+    h3 {
         font-size: 3rem;
-        margin: 15px 0;
     }
     .skillList {
         grid-template-columns: 1fr;
     }
     
-
 }
+
+@media (max-width:400px) {
+    .aboutFlexContainer img {
+        height: 400px;
+        margin-right: 0;
+    }
+    .aboutInfo h5 {
+        letter-spacing: 4px;
+    }
+}
+
 
