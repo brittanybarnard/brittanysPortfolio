@@ -6,15 +6,14 @@
     <title>Brittany Barnard | Front-End Developer</title>
     <link rel="stylesheet" href="./styles.css">
     <script src="https://kit.fontawesome.com/ab2685bd62.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     
     <nav>
 
         <div class="navBar container">
-            <a href="#home" class="logo"><span>Brittany</span> Barnard</a>
+            <a href="#home" class="logo"><span class="orangeTxt">Brittany</span> Barnard</a>
             <ul class="navBarLinks">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -30,8 +29,10 @@
 
         <div class="home container">
             <h1>Welcome to my Website</h1>
-            <h2>I'm <a href="#about" class="brittanyHover">Brittany</a> Barnard</h2>
-            <p>Front-End Developer</p>
+            <h2>
+                <span class="sr-only">I'm Brittany Barnard. Front-End Developer. UX/UI Developer. Web Designer</span>
+                <span class="txt-type" data-wait="3000" data-words='["I&#39m Brittany Barnard", "Front-End Developer", "UX/UI Developer", "Web Designer"]'></span>
+            </h2>
             <ul class="socialMedia">
                 <li><a href="https://www.linkedin.com/in/brittany-barnard-399152203/"><i aria-hidden="true" class="fab fa-linkedin"><span class="sr-only">LinkedIn</span></i></a></li>
                 <li><a href="https://github.com/brittanybarnard"><i aria-hidden="true" class="fab fa-github"><span class="sr-only">GitHub</span></i></a></li>
@@ -55,7 +56,7 @@
                 <div class="aboutFlexContainer">
                     <img src="assets/websitePhotoEdited.JPG" alt="placeholder image for now">
                     <div class="aboutInfo">
-                        <h4>Hi, I'm <span>Brittany</span>.</h4>
+                        <h4>Hi, I'm <span class="orangeTxt">Brittany</span>.</h4>
                         <h5>Front-End Developer</h5>
                         <p>I am a Front-End Developer with a passion for complex problem-solving.  Skilled at implementing the best practices for modern web development solutions.  Focus on responsive design and implementing web accessibility requirements successfully.  Track record of being an essential part of team-based development in providing effective solutions that produce
                         immediate impact.</p>
@@ -174,5 +175,6 @@
         <p>Designed by Brittany Barnard</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>

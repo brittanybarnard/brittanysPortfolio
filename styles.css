@@ -21,7 +21,7 @@ html {
 body {
     background: #0c0f16;
 	color: #fff;
-	font-family: 'Rubik', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 2rem;
     font-weight: 400;
 }
@@ -66,11 +66,11 @@ h4 {
     font-weight: 600;
 }
 
-/* nav styles */
-
-span {
+.orangeTxt {
     color: #ff4500;
 }
+
+/* nav styles */
 
 .navBar {
     display: flex;
@@ -88,11 +88,6 @@ span {
     display: flex;
     font-size: 1.5rem;
     text-transform: uppercase;
-}
-
-.socialMedia li:hover,
-.socialMedia li:focus {
-    color: #ff4500;
 }
 
 .navBarLinks li {
@@ -123,6 +118,7 @@ h1 {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
+    color: #777;
 }
 
 h2 {
@@ -130,10 +126,10 @@ h2 {
     font-weight: 700;
 }
 
-.brittanyHover:hover,
-.brittanyHover:focus {
-    color: #ff4500;
+.txt-type > .txt {
+    border-right: 0.2rem solid #777;
 }
+
 
 .home {
     text-align: center;
@@ -153,6 +149,12 @@ h2 {
 
 .socialMedia li {
     margin: 20px;
+    color: #777;
+}
+
+.socialMedia li:hover,
+.socialMedia li:focus {
+    color: #fff;
 }
 
 .headerButtonContainer {
@@ -182,6 +184,12 @@ h2 {
 .chevronDown {
     position: absolute;
     bottom: 0;
+    color: #777;
+}
+
+.chevronDown:hover,
+.chevronDown:focus {
+    color: #fff;
 }
 
 /* main styles */
