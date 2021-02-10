@@ -1,3 +1,5 @@
+//Typewrite Effect on Header
+
 //create typewriter function
 const TypeWriter = function(txtElement, words, wait = 3000) {
     this.txtElement = txtElement;
@@ -61,4 +63,11 @@ function init() {
     const wait = txtElement.getAttribute('data-wait');
     //init Typewriter
     new TypeWriter(txtElement, words, wait);
+}
+
+//hamburger menu
+
+function toggleClass() {
+    const menu = document.querySelector('.navBarLinks');
+    menu.classList.toggle('toggleCls');
 }

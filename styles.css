@@ -72,6 +72,14 @@ h4 {
 
 /* nav styles */
 
+.hamburgerMenuIcon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
 .navBar {
     display: flex;
     flex-wrap: wrap;
@@ -104,13 +112,16 @@ h4 {
 /* home styles */
 
 .home {
-    background-image: url(./assets/contact-bg.png);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 80vh;
     position: relative;
+}
+
+#home {
+    background-image: url(./assets/contact-bg.png);
 }
 
 h1 {
@@ -412,7 +423,28 @@ footer {
     .contactDetails {
         flex-direction: column;
     }
+    .logo {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    .navBarLinks {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        top: 55px;
+        right: 20px;
+    }
+    .navBarLinks.toggleCls {
+        display: block;
+    }
     
+}
+
+@media (min-width:849px) {
+    .hamburgerMenuIcon {
+        display: none;
+    }
 }
 
 @media (max-width:468px) {
@@ -429,13 +461,7 @@ footer {
     .home p {
         font-size: 1.5rem;
     }
-    .navBar {
-        flex-direction: column;
-        text-align: center;
-    }
-    .navBarLinks {
-        flex-direction: column;
-    }
+    
     .headerButtonContainer {
         flex-direction: column;
     }
