@@ -75,8 +75,9 @@ h4 {
 header {
     height: 100vh;
     background-image: url(./assets/headerBackgroundImage.jpg);
-    background-position: center;
+    background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* nav styles */
