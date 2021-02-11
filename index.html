@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brittany Barnard | Front-End Developer</title>
+    <meta name="keywords" content="Brittany Barnard, developer, frontend developer, front-end developer, web developer, portfolio">
+    <!-- styles sheets and kits -->
     <link rel="stylesheet" href="./styles.css">
-    <script src="https://kit.fontawesome.com/ab2685bd62.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ab2685bd62.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
-    <nav>
-        <div class="hamburgerMenuIcon" onclick="toggleClass()">
-            <i class="fas fa-bars"><span class="sr-only">Navigation Menu</span></i>
-        </div>
-  
-        <div class="navBar container">
-            <a href="#home" class="logo"><span class="orangeTxt">Brittany</span> Barnard</a>
-            <ul class="navBarLinks">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-
-    </nav>
-
+    
     <header id="home">
+
+        <nav>
+            <div class="hamburgerMenuIcon" onclick="toggleClass()">
+                <i class="fas fa-bars"><span class="sr-only">Navigation Menu</span></i>
+            </div>
+      
+            <div class="navBar container">
+                <a href="#home" class="logo"><span class="orangeTxt">Brittany</span> Barnard</a>
+                <ul class="navBarLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+    
+        </nav>
 
         <div class="home container">
             <h1>Welcome to my Website</h1>
@@ -122,18 +125,24 @@
                 <ul class="portfolioItems">
                     <li>
                         <h5>Book Club Reads</h5>
+                        <img src="./assets/bookClubReads.PNG" alt="Landing page image of Book Club Reads app.">
                         <p>Interactive app that helps users make their own reading lists and track their reading progress.  User can search for a book by title or author, and the search results will display the results with the book cover, author, title and description.  Users can add or delete a book from their bookshelf and their list will be saved to Firebase database.</p>
-                        <button><a href="https://brittany-marielle-martin-jon-project-6.github.io/book-club-reads/">View</a></button>
+                        <button class="portfolioButtons"><a href="https://brittany-marielle-martin-jon-project-6.github.io/book-club-reads/">View Live</a></button>
+                        <button class="portfolioButtons"><a href="https://github.com/brittany-marielle-martin-jon-project-6/book-club-reads">View Code</a></button>
                     </li>
                     <li>
                         <h5>Start Your Holidays!</h5>
+                        <img src="./assets/startYourHolidays.PNG" alt="Landing page image of Start Your Holidays app.">
                         <p>A fun, interactive app that will randomly select the perfect Christmas movie for you to watch over the holidays.  This app connects react to a RESTful API to get the movies.</p>
-                        <button><a href="https://brittanybarnard.github.io/brittanyBarnardProject5/">View</a></button>
+                        <button class="portfolioButtons"><a href="https://brittanybarnard.github.io/brittanyBarnardProject5/">View Live</a></button>
+                        <button class="portfolioButtons"><a href="https://github.com/brittanybarnard/brittanyBarnardProject5">View Code</a></button>
                     </li>
                     <li>
                         <h5>Animal Refuge</h5>
+                        <img src="./assets/animalRefuge.PNG" alt="Landing page image of Animal Refuge project.">
                         <p>An informative website outline with a focus on preserving wildlife animals. This is a classic demonstration of how far HTML5 and CSS3 can get you!</p>
-                        <button><a href="https://brittanybarnard.github.io/project1Bootcamp/">View</a></button>
+                        <button class="portfolioButtons"><a href="https://brittanybarnard.github.io/project1Bootcamp/">View Live</a></button>
+                        <button class="portfolioButtons"><a href="https://github.com/brittanybarnard/project1Bootcamp">View Code</a></button>
                     </li>
                 </ul>
             </div>
@@ -175,9 +184,9 @@
             <li><a href="https://github.com/brittanybarnard"><i aria-hidden="true" class="fab fa-github"><span class="sr-only">GitHub</span></i></a></li>
             <li><a href="https://calendly.com/brittanyabarnard"><i aria-hidden="true" class="fas fa-calendar-check"><span class="sr-only">Calendly</span></i></a></li>
         </ul>
-        <p>Designed by Brittany Barnard</p>
+        <p>Designed by <a href="https://github.com/brittanybarnard/brittanysPortfolio">Brittany Barnard</a></p>
     </footer>
-
+    <!-- attach js file -->
     <script src="./script.js"></script>
 </body>
 </html>
