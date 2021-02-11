@@ -71,6 +71,9 @@ h4 {
 }
 
 /* nav styles */
+nav {
+    height: 10vh;
+}
 
 .hamburgerMenuIcon {
     position: absolute;
@@ -83,8 +86,9 @@ h4 {
 .navBar {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    align-items: center;
     margin-top: 50px;
+    justify-content: space-between;
 }
 
 .logo {
@@ -408,21 +412,6 @@ footer {
 
 @media (max-width:848px) {
 
-    h3 {
-        margin: 50px 0;
-    }
-    .aboutFlexContainer {
-        flex-direction: column;
-    }
-    .aboutFlexContainer img {
-        margin-bottom: 20px;
-    }
-    .skillList {
-        grid-template-columns: 1fr 1fr;
-    }
-    .contactDetails {
-        flex-direction: column;
-    }
     .logo {
         position: absolute;
         top: 20px;
@@ -437,6 +426,21 @@ footer {
     }
     .navBarLinks.toggleCls {
         display: block;
+    }
+    h3 {
+        margin: 50px 0;
+    }
+    .aboutFlexContainer {
+        flex-direction: column;
+    }
+    .aboutFlexContainer img {
+        margin-bottom: 20px;
+    }
+    .skillList {
+        grid-template-columns: 1fr 1fr;
+    }
+    .contactDetails {
+        flex-direction: column;
     }
     
 }
@@ -487,6 +491,9 @@ footer {
     }
     .navBar {
         margin-top: 20px;
+    }
+    .home {
+        height: 90vh;
     }
 }
 
