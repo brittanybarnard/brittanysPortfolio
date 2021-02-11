@@ -9,35 +9,36 @@
     <link rel="stylesheet" href="./styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ab2685bd62.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
 </head>
 <body>
     
     
+    <nav>
+        <div class="hamburgerMenuIcon" onclick="toggleClass()">
+            <i class="fas fa-bars"><span class="sr-only">Navigation Menu</span></i>
+        </div>
+  
+        <div class="navBar container">
+            <a href="#home" class="logo"><span class="orangeTxt">Brittany</span> Barnard</a>
+            <ul class="navBarLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+    </nav>
     <header id="home">
 
-        <nav>
-            <div class="hamburgerMenuIcon" onclick="toggleClass()">
-                <i class="fas fa-bars"><span class="sr-only">Navigation Menu</span></i>
-            </div>
-      
-            <div class="navBar container">
-                <a href="#home" class="logo"><span class="orangeTxt">Brittany</span> Barnard</a>
-                <ul class="navBarLinks">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-    
-        </nav>
 
         <div class="home container">
             <h1>Welcome to my Website</h1>
             <h2>
                 <span class="sr-only">I'm Brittany Barnard. Front-End Developer. UX/UI Developer. Web Designer</span>
-                <span class="txt-type" data-wait="3000" data-words='["I&#39m Brittany Barnard", "Front-End Developer", "UX/UI Developer", "Web Designer"]'></span>
+                <span class="txt-type" data-wait="3000" data-words='["I&#39m Brittany Barnard", "Front-End Developer", "Coffee Enthusiast", "Web Designer"]'></span>
             </h2>
             <ul class="socialMedia">
                 <li><a href="https://www.linkedin.com/in/brittany-barnard-399152203/"><i aria-hidden="true" class="fab fa-linkedin"><span class="sr-only">LinkedIn</span></i></a></li>
@@ -78,8 +79,32 @@
                 <h3>Skills</h3>
                 <ul class="skillList">
                     <li>
+                        <div class="skillIcons"><i class="devicon-html5-plain"></i></div>
+                        <h4>HTML5</h4>                        
+                    </li>
+                    <li>
+                        <div class="skillIcons"><i class="devicon-css3-plain"></i></div>
+                        <h4>CSS3</h4>
+                    </li>
+                    <li>
+                        <div class="skillIcons"><i class="devicon-sass-original"></i></div>
+                        <h4>SASS/SCSS</h4>
+                    </li>
+                    <li>
+                        <div class="skillIcons"><i class="devicon-javascript-plain"></i></div>
+                        <h4>JavaScript</h4>
+                    </li>
+                    <li>
+                        <div class="skillIcons"><i class="devicon-jquery-plain"></i></div>
+                        <h4>jQuery</h4>
+                    </li>
+                    <li>
+                        <div class="skillIcons"><i class="devicon-react-original"></i></div>
+                        <h4>React</h4>
+                    </li>
+                    <li>
                         <div class="skillIcons"><i class="fas fa-universal-access"></i></div>
-                        <h4>Website Accessibility Requirements</h4>                        
+                        <h4>Website Accessibility</h4>                        
                     </li>
                     <li>
                         <div class="skillIcons"><i class="fas fa-mobile-alt"></i></div>
@@ -90,20 +115,24 @@
                         <h4>SEO Optimization</h4>                       
                     </li>
                     <li>
-                        <div class="skillIcons"><i class="fas fa-code"></i></div>
-                        <h4>HTML5, CSS3, SCSS/SASS</h4>                        
+                        <div class="skillIcons"><i class="fas fa-database"></i></div>
+                        <h4>Firebase</h4>
                     </li>
                     <li>
-                        <div class="skillIcons"><i class="fab fa-react"></i></div>
-                        <h4>Javascript, jQuery, React</h4>                        
+                        <div class="skillIcons"><i class="devicon-github-original"></i></div>
+                        <h4>Github</h4>
+                    </li>
+                    <li>
+                        <div class="skillIcons"><i class="fas fa-terminal"></i></div>
+                        <h4>Terminal</h4>
                     </li>
                     <li>
                         <div class="skillIcons"><i class="fab fa-searchengin"></i></div>
-                        <h4>Working with RESTful APIs and Firebase</h4>                        
+                        <h4>Working with RESTful APIs</h4>                        
                     </li>
                     <li>
                         <div class="skillIcons"><i class="fab fa-git"></i></div>
-                        <h4>Version Control using Git & Github</h4>
+                        <h4>Version Control using Git</h4>
                     </li>
                     <li>
                         <div class="skillIcons"><i class="fas fa-users"></i></div>
@@ -184,7 +213,7 @@
             <li><a href="https://github.com/brittanybarnard"><i aria-hidden="true" class="fab fa-github"><span class="sr-only">GitHub</span></i></a></li>
             <li><a href="https://calendly.com/brittanyabarnard"><i aria-hidden="true" class="fas fa-calendar-check"><span class="sr-only">Calendly</span></i></a></li>
         </ul>
-        <p>Designed by <a href="https://github.com/brittanybarnard/brittanysPortfolio">Brittany Barnard</a></p>
+        <p><a href="https://github.com/brittanybarnard/brittanysPortfolio">Designed</a> by <a href="https://www.linkedin.com/in/brittany-barnard-399152203/">Brittany Barnard</a></p>
     </footer>
     <!-- attach js file -->
     <script src="./script.js"></script>

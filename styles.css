@@ -74,11 +74,17 @@ h4 {
 
 header {
     height: 100vh;
+    background-image: url(./assets/headerBackgroundImage.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 /* nav styles */
 nav {
-    height: 5vh;
+    height: 7vh;
+    background-color: #0c0f16;
+    display: flex;
+    align-items: center;
 }
 
 .hamburgerMenuIcon {
@@ -93,7 +99,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 5vh;
+    /* margin-top: 5vh; */
     justify-content: space-between;
 }
 
@@ -130,16 +136,16 @@ nav {
     height: 90vh;
 }
 
-#home {
+/* #home {
     background-image: url(./assets/contact-bg.png);
-}
+} */
 
 h1 {
     font-size: 2.5rem;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #777;
+    color: rgb(155, 154, 154);
 }
 
 h2 {
@@ -148,7 +154,7 @@ h2 {
 }
 
 .txt-type > .txt {
-    border-right: 0.2rem solid #777;
+    border-right: 0.2rem solid rgb(155, 154, 154);
 }
 
 
@@ -170,7 +176,7 @@ h2 {
 
 .socialMedia li {
     margin: 20px;
-    color: #777;
+    color: rgb(155, 154, 154);
 }
 
 .socialMedia li:hover,
@@ -205,7 +211,7 @@ h2 {
 .chevronDown {
     position: absolute;
     bottom: 20px;
-    color: #777;
+    color: rgb(155, 154, 154);
 }
 
 .chevronDown:hover,
@@ -261,7 +267,7 @@ h2 {
 
 .skillList {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
 }
 
@@ -462,9 +468,9 @@ footer {
     h1 {
         font-size: 1.5rem;
     }
-    .home {
+    /* .home {
         height: 60vh;
-    }
+    } */
     .home h2 {
         font-size: 3rem;
     }
@@ -497,9 +503,6 @@ footer {
     }
     .navBar {
         margin-top: 20px;
-    }
-    .home {
-        height: 90vh;
     }
 }
 
