@@ -106,7 +106,6 @@ nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    /* margin-top: 5vh; */
     justify-content: space-between;
 }
 
@@ -142,10 +141,6 @@ nav {
     position: relative;
     height: 90vh;
 }
-
-/* #home {
-    background-image: url(./assets/contact-bg.png);
-} */
 
 h1 {
     font-size: 2.5rem;
@@ -402,7 +397,6 @@ footer {
 }
 
 .footer {
-    /* margin-top: 10px; */
     margin-bottom: 10px;
 }
 
@@ -478,9 +472,6 @@ footer {
     h1 {
         font-size: 1.5rem;
     }
-    /* .home {
-        height: 60vh;
-    } */
     .home h2 {
         font-size: 3rem;
     }
@@ -513,6 +504,9 @@ footer {
     }
     .navBar {
         margin-top: 20px;
+    }
+    .portfolioButtons {
+        margin: 15px 0;
     }
 }
 
