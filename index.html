@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ab2685bd62.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
+    <!-- animations -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     
@@ -32,7 +34,6 @@
 
     </nav>
     <header id="home">
-
 
         <div class="home container">
             <h1>Welcome to my Website</h1>
@@ -59,8 +60,12 @@
         <section id="about" class="container">
 
             <div class="about">
-                <h3>About Me</h3>
-                <div class="aboutFlexContainer">
+                
+                <div data-aos="fade-down" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out"
+                data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center">
+                    <h3>About Me</h3>
+                </div>
+                <div class="aboutFlexContainer" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-mirror="true"data-aos-once="false" data-aos-anchor-placement="top-center">  
                     <img src="assets/websitePhotoEdited.JPG" alt="placeholder image for now">
                     <div class="aboutInfo">
                         <h4>Hi, I'm <span class="orangeTxt">Brittany</span>.</h4>
@@ -75,105 +80,111 @@
 
         <section id="skills">
 
-            <div class="skills container">
+            
+            <div class="skills container" data-aos="fade-down" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-mirror="true"data-aos-once="false" data-aos-anchor-placement="top-center">
                 <h3>Skills</h3>
-                <ul class="skillList">
-                    <li>
-                        <div class="skillIcons"><i class="devicon-html5-plain"></i></div>
-                        <h4>HTML5</h4>                        
-                    </li>
-                    <li>
-                        <div class="skillIcons"><i class="devicon-css3-plain"></i></div>
-                        <h4>CSS3</h4>
-                    </li>
-                    <li>
-                        <div class="skillIcons"><i class="devicon-sass-original"></i></div>
-                        <h4>SASS/SCSS</h4>
-                    </li>
-                    <li>
-                        <div class="skillIcons"><i class="devicon-javascript-plain"></i></div>
-                        <h4>JavaScript</h4>
-                    </li>
-                    <li>
-                        <div class="skillIcons"><i class="devicon-jquery-plain"></i></div>
-                        <h4>jQuery</h4>
-                    </li>
-                    <li>
-                        <div class="skillIcons"><i class="devicon-react-original"></i></div>
-                        <h4>React</h4>
-                    </li>
-                    <li>
-                        <div class="skillIcons"><i class="fas fa-universal-access"></i></div>
-                        <h4>Website Accessibility</h4>                        
-                    </li>
-                    <li>
-                        <div class="skillIcons"><i class="fas fa-mobile-alt"></i></div>
-                        <h4>Responsive Design</h4>   
-                    </li>
-                    <li>
-                        <div class="skillIcons"><i class="fas fa-chart-line"></i></div>
-                        <h4>SEO Optimization</h4>                       
-                    </li>
-                    <li>
-                        <div class="skillIcons"><i class="fas fa-database"></i></div>
-                        <h4>Firebase</h4>
-                    </li>
-                    <li>
-                        <div class="skillIcons"><i class="devicon-github-original"></i></div>
-                        <h4>Github</h4>
-                    </li>
-                    <li>
-                        <div class="skillIcons"><i class="fas fa-terminal"></i></div>
-                        <h4>Terminal</h4>
-                    </li>
-                    <li>
-                        <div class="skillIcons"><i class="fab fa-searchengin"></i></div>
-                        <h4>Working with RESTful APIs</h4>                        
-                    </li>
-                    <li>
-                        <div class="skillIcons"><i class="fab fa-git"></i></div>
-                        <h4>Version Control using Git</h4>
-                    </li>
-                    <li>
-                        <div class="skillIcons"><i class="fas fa-users"></i></div>
-                        <h4>Paired Programming & Team-Based Development</h4>
-                    </li>
-                    <li>
-                        <div class="skillIcons"><i class="fas fa-project-diagram"></i></div>
-                        <h4>Project Scope Management</h4>
-                    </li>
-                </ul>
+            </div>
+                <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"data-aos-once="false" data-aos-anchor-placement="top-center">
+                    <ul class="skillList">
+                        <li>
+                            <div class="skillIcons"><i class="devicon-html5-plain"></i></div>
+                            <h4>HTML5</h4>                        
+                        </li>
+                        <li>
+                            <div class="skillIcons"><i class="devicon-css3-plain"></i></div>
+                            <h4>CSS3</h4>
+                        </li>
+                        <li>
+                            <div class="skillIcons"><i class="devicon-sass-original"></i></div>
+                            <h4>SASS/SCSS</h4>
+                        </li>
+                        <li>
+                            <div class="skillIcons"><i class="devicon-javascript-plain"></i></div>
+                            <h4>JavaScript</h4>
+                        </li>
+                        <li>
+                            <div class="skillIcons"><i class="devicon-jquery-plain"></i></div>
+                            <h4>jQuery</h4>
+                        </li>
+                        <li>
+                            <div class="skillIcons"><i class="devicon-react-original"></i></div>
+                            <h4>React</h4>
+                        </li>
+                        <li>
+                            <div class="skillIcons"><i class="fas fa-universal-access"></i></div>
+                            <h4>Website Accessibility</h4>                        
+                        </li>
+                        <li>
+                            <div class="skillIcons"><i class="fas fa-mobile-alt"></i></div>
+                            <h4>Responsive Design</h4>   
+                        </li>
+                        <li>
+                            <div class="skillIcons"><i class="fas fa-chart-line"></i></div>
+                            <h4>SEO Optimization</h4>                       
+                        </li>
+                        <li>
+                            <div class="skillIcons"><i class="fas fa-database"></i></div>
+                            <h4>Firebase</h4>
+                        </li>
+                        <li>
+                            <div class="skillIcons"><i class="devicon-github-original"></i></div>
+                            <h4>Github</h4>
+                        </li>
+                        <li>
+                            <div class="skillIcons"><i class="fas fa-terminal"></i></div>
+                            <h4>Terminal</h4>
+                        </li>
+                        <li>
+                            <div class="skillIcons"><i class="fab fa-searchengin"></i></div>
+                            <h4>Working with RESTful APIs</h4>                        
+                        </li>
+                        <li>
+                            <div class="skillIcons"><i class="fab fa-git"></i></div>
+                            <h4>Version Control using Git</h4>
+                        </li>
+                        <li>
+                            <div class="skillIcons"><i class="fas fa-users"></i></div>
+                            <h4>Paired Programming & Team-Based Development</h4>
+                        </li>
+                        <li>
+                            <div class="skillIcons"><i class="fas fa-project-diagram"></i></div>
+                            <h4>Project Scope Management</h4>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
         </section>
 
         <section id="portfolio">
 
-            <div class="container portfolio">
-                <h3>Recent Portfolio</h3>
-                <ul class="portfolioItems">
-                    <li>
-                        <h5>Book Club Reads</h5>
-                        <img src="./assets/bookClubReads.PNG" alt="Landing page image of Book Club Reads app.">
-                        <p>Interactive app that helps users make their own reading lists and track their reading progress.  User can search for a book by title or author, and the search results will display the results with the book cover, author, title and description.  Users can add or delete a book from their bookshelf and their list will be saved to Firebase database.</p>
-                        <button class="portfolioButtons"><a href="https://brittany-marielle-martin-jon-project-6.github.io/book-club-reads/">View Live</a></button>
-                        <button class="portfolioButtons"><a href="https://github.com/brittany-marielle-martin-jon-project-6/book-club-reads">View Code</a></button>
-                    </li>
-                    <li>
-                        <h5>Start Your Holidays!</h5>
-                        <img src="./assets/startYourHolidays.PNG" alt="Landing page image of Start Your Holidays app.">
-                        <p>A fun, interactive app that will randomly select the perfect Christmas movie for you to watch over the holidays.  This app connects react to a RESTful API to get the movies.</p>
-                        <button class="portfolioButtons"><a href="https://brittanybarnard.github.io/brittanyBarnardProject5/">View Live</a></button>
-                        <button class="portfolioButtons"><a href="https://github.com/brittanybarnard/brittanyBarnardProject5">View Code</a></button>
-                    </li>
-                    <li>
-                        <h5>Animal Refuge</h5>
-                        <img src="./assets/animalRefuge.PNG" alt="Landing page image of Animal Refuge project.">
-                        <p>An informative website outline with a focus on preserving wildlife animals. This is a classic demonstration of how far HTML5 and CSS3 can get you!</p>
-                        <button class="portfolioButtons"><a href="https://brittanybarnard.github.io/project1Bootcamp/">View Live</a></button>
-                        <button class="portfolioButtons"><a href="https://github.com/brittanybarnard/project1Bootcamp">View Code</a></button>
-                    </li>
-                </ul>
+            <div data-aos="fade-down" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center">
+                <div class="container portfolio">
+                    <h3>Recent Portfolio</h3>
+                    <ul class="portfolioItems" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-mirror="true"data-aos-once="false" data-aos-anchor-placement="top-center">
+                        <li>
+                            <h5>Book Club Reads</h5>
+                            <img src="./assets/bookClubReads.PNG" alt="Landing page image of Book Club Reads app.">
+                            <p>Interactive app that helps users make their own reading lists and track their reading progress.  User can search for a book by title or author, and the search results will display the results with the book cover, author, title and description.  Users can add or delete a book from their bookshelf and their list will be saved to Firebase database.</p>
+                            <button class="portfolioButtons"><a href="https://brittany-marielle-martin-jon-project-6.github.io/book-club-reads/">View Live</a></button>
+                            <button class="portfolioButtons"><a href="https://github.com/brittany-marielle-martin-jon-project-6/book-club-reads">View Code</a></button>
+                        </li>
+                        <li>
+                            <h5>Start Your Holidays!</h5>
+                            <img src="./assets/startYourHolidays.PNG" alt="Landing page image of Start Your Holidays app.">
+                            <p>A fun, interactive app that will randomly select the perfect Christmas movie for you to watch over the holidays.  This app connects react to a RESTful API to get the movies.</p>
+                            <button class="portfolioButtons"><a href="https://brittanybarnard.github.io/brittanyBarnardProject5/">View Live</a></button>
+                            <button class="portfolioButtons"><a href="https://github.com/brittanybarnard/brittanyBarnardProject5">View Code</a></button>
+                        </li>
+                        <li>
+                            <h5>Animal Refuge</h5>
+                            <img src="./assets/animalRefuge.PNG" alt="Landing page image of Animal Refuge project.">
+                            <p>An informative website outline with a focus on preserving wildlife animals. This is a classic demonstration of how far HTML5 and CSS3 can get you!</p>
+                            <button class="portfolioButtons"><a href="https://brittanybarnard.github.io/project1Bootcamp/">View Live</a></button>
+                            <button class="portfolioButtons"><a href="https://github.com/brittanybarnard/project1Bootcamp">View Code</a></button>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
         </section>
@@ -208,13 +219,20 @@
     </main>
 
     <footer class="footer container">
+
         <ul class="socialMedia">
             <li><a href="https://www.linkedin.com/in/brittany-barnard-399152203/"><i aria-hidden="true" class="fab fa-linkedin"><span class="sr-only">LinkedIn</span></i></a></li>
             <li><a href="https://github.com/brittanybarnard"><i aria-hidden="true" class="fab fa-github"><span class="sr-only">GitHub</span></i></a></li>
             <li><a href="https://calendly.com/brittanyabarnard"><i aria-hidden="true" class="fas fa-calendar-check"><span class="sr-only">Calendly</span></i></a></li>
         </ul>
         <p><a href="https://github.com/brittanybarnard/brittanysPortfolio">Designed</a> by <a href="https://www.linkedin.com/in/brittany-barnard-399152203/">Brittany Barnard</a></p>
+        
     </footer>
+    <!-- animation script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <!-- attach js file -->
     <script src="./script.js"></script>
 </body>
