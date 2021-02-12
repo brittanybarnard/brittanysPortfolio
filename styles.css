@@ -455,6 +455,9 @@ footer {
     .skillList {
         grid-template-columns: 1fr 1fr;
     }
+    .portfolioButtons {
+        margin: 5px auto;
+    }
     .contactDetails {
         flex-direction: column;
     }
@@ -467,7 +470,7 @@ footer {
     }
 }
 
-@media (max-width:468px) {
+@media (max-width:476px) {
 
     h1 {
         font-size: 1.5rem;
@@ -504,9 +507,6 @@ footer {
     }
     .navBar {
         margin-top: 20px;
-    }
-    .portfolioButtons {
-        margin: 15px 0;
     }
 }
 
