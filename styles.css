@@ -428,6 +428,9 @@ footer {
 
 @media (max-width:848px) {
 
+    nav {
+        margin-bottom: 10px;
+    }
     .logo {
         position: absolute;
         top: 20px;
