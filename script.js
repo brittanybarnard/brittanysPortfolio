@@ -74,7 +74,7 @@ function toggleClass() {
 
 const hamburgerMenu = document.querySelector('.hamburgerMenuIcon');
 
-hamburgerMenu.addEventListener('click', toggleClass)
+hamburgerMenu.addEventListener('click', toggleClass);
 
 //animations
 AOS.init();
