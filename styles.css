@@ -80,8 +80,7 @@ h4 {
 
 header {
     height: 100vh;
-    background-image: url(./assets/headerBackgroundImage.jpg);
-    background-position: center center;
+    background-image: url(./assets/contact-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
